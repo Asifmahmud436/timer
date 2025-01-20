@@ -3,7 +3,7 @@ const p = document.querySelector('.root')
 let time = new Date()
 p.innerText = time.toLocaleTimeString()
 
-const increaseTime = function(){
+function increaseTime(){
     time = new Date()
     p.innerText = time.toLocaleTimeString()
 }
